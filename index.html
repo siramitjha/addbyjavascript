@@ -11,6 +11,13 @@ b=Number(document.getElementById("second").value);
 c=a+b;
 document.getElementById("answer").value=c;
 }
+  function multi(){
+var a,b,c;
+a=Number(document.getElementById("third").value);
+b=Number(document.getElementById("fourth").value);
+c=a*b;
+document.getElementById("answer2").value=c;
+}
 </script>
 </head>
 
@@ -28,6 +35,25 @@ Enter the Second number:<input id="second" class="form-control">
 </div>
 <div class="col-lg-2">
 Click On Add Button:<button class="form-control btn btn-success" onclick="add()">ADD</button>
+</div>
+<div class="col-lg-2">
+
+Sum of Two number:<input id="answer2" class="form-control">
+</div>
+</div>
+  
+  <div class="row mt-5 mb-5">
+<h1>Multiply BY JAVASCRIPT METHOD</h1></DIV>
+<div class="row mt-5 mb-5">
+
+<div class="col-lg-4">
+Enter the first number:<input id="third" class="form-control">
+</div>
+<div class="col-lg-4">
+Enter the Second number:<input id="fourth" class="form-control">
+</div>
+<div class="col-lg-2">
+Click On Add Button:<button class="form-control btn btn-success" onclick="multi()">ADD</button>
 </div>
 <div class="col-lg-2">
 
